@@ -1,16 +1,28 @@
-## Hi there 👋
+# Ludiscan
 
-**This is a game analysis tool project**
+**Game Analysis Tool Project** - ゲーム解析ツールプロジェクト
 
-by yuhi yamane
+## Overview
 
-<!--
+Ludiscanは、ゲームプレイデータを収集・分析するためのツールセットです。
 
-**Here are some ideas to get you started:**
+## Repositories
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+| Repository | Description |
+|------------|-------------|
+| [ludiscan-api-v0](https://github.com/ludiscan/ludiscan-api-v0) | Backend API server |
+| [ludiscan-webapp](https://github.com/ludiscan/ludiscan-webapp) | Web application frontend |
+| [ludiscan-unity-api-client](https://github.com/ludiscan/ludiscan-unity-api-client) | Unity SDK for game integration |
+
+## Architecture
+
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Unity Game    │────▶│   Backend API   │◀────│    Web App      │
+│   (SDK Client)  │     │   (ludiscan-api)│     │   (Dashboard)   │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
+## Author
+
+yuhi yamane
