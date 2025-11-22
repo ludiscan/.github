@@ -11,7 +11,7 @@ Ludiscanは、ゲーム内のプレイヤー行動データを収集・可視化
 
 | Repository | Description | Tech Stack |
 |------------|-------------|------------|
-| [ludiscan-api-v0](https://github.com/ludiscan/ludiscan-api-v0) | Backend API server | NestJS, TypeScript, PostgreSQL, Redis |
+| [ludiscan-api-v0](https://github.com/ludiscan/ludiscan-api-v0) | Backend API server (Private) | NestJS, TypeScript, PostgreSQL, Redis |
 | [ludiscan-webapp](https://github.com/ludiscan/ludiscan-webapp) | Analytics dashboard | Next.js, TypeScript, Three.js |
 | [ludiscan-unity-api-client](https://github.com/ludiscan/ludiscan-unity-api-client) | Unity SDK | C#, Unity 2022.2+ |
 
